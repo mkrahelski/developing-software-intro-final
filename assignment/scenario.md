@@ -19,6 +19,8 @@ Gerlad, our favorite contractor, has asked for a new application; it's very simi
 
 The prior assignments 1-3 lead up to this final, and the scenario's throughout those assignment still apply unless specifically overridden in this scenario. You will be marked on the execution of this final, but should some requirements not be clear, refer to the prior assignments for your answer.
 
+**NOTE: These go to external links!**
+
   - [Assignment 1](./DevelopingSoftwareIntroduction-Assignment1.pdf)
   - [Assignment 2](https://github.com/Focus-College/developing-software-intro-assignment-2/blob/master/assignment/scenario.md)
   - [Assingment 3](https://github.com/Focus-College/developing-software-intro-assignment-3/blob/master/assignment/scenario.md)
