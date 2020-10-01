@@ -6,9 +6,9 @@ This is your `Developing Software: Introduction` Final Assessment.
 
   1. [Assessment Criteria](./criteria.md)
   2. [Scenario](./scenario.md)
-  3. [Project Instructions](./project-instructions.md)
-  4. [Setup Instructions](./setup-instructions.md)
-  5. [Software Instructions](./software-instructions.md)
+  3. [Project Instructions (100 Points)](./project-instructions.md)
+  4. [Setup Instructions (300 Points)](./setup-instructions.md)
+  5. [Software Instructions (600 Points)](./software-instructions.md)
   6. [Submission](./submission.md)
 
 # Notes
