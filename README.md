@@ -1,4 +1,4 @@
-# Focus College ACSD Assignment 4
+# Focus College ACSD Final
 
 This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.
 
@@ -8,11 +8,15 @@ You can remove everything below the above line once you're ready to edit this fi
 
 ## Getting Started
 
-Please read the [Assignment Requirements](./assignment/readme.md)
+Please read the [Final Test Requirements](./assignment/readme.md)
+
+## IMPORTANT NOTICE
+
+DO NOT PUSH THIS REPOSITORY TO YOUR GITHUB ACCOUNT OR MAKE A PULL REQUEST INTO THE FINAL UNTIL DIRECTLY INSTRUCTED TO DO SO. THIS IS A TEST AND CANNOT BE COLLABORATED ON WITH OTHER STUDENTS.
 
 ## Deadline For Submissions
 
-The deadline for this assignment is 5PM on Wednesday September 30th, 2020
+The deadline for this assignment is 5PM on Friday October 9th, 2020. No extensions can be given for this final.
 
 ## Notes
 
