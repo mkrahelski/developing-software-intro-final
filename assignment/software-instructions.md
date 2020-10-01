@@ -124,3 +124,6 @@ NOTE: You are not expected to write tests for Yargs
 - Update the readme.md's
 - Version your package
 - Commit your changes
+
+--- 
+[Previous: Setup Instructions](./setup-instructions.md) | [Next: Submission](./submission.md)

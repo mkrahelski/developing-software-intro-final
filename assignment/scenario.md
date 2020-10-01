@@ -97,3 +97,7 @@ In this sample, you can see that Gerald needs the materials required seperate fr
   - outsideWallArea
   - insideWallArea
   - ceilingArea
+
+--- 
+[Previous: Assessment Criteria](./criteria.md) | 
+[Next: Project Instructions](./project-instructions.md)

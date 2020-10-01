@@ -86,3 +86,6 @@
 - Version your package
 - Commit your changes
 - Merge your feature branch into master on your local machine
+
+--- 
+[Previous: Project Instructions](./project-instructions.md) | [Next: Software Instructions](./software-instructions.md)

@@ -7,3 +7,7 @@
 ## Quality of Content
 
 The quality of content (i.e. how well the user stories are written, how thorough the descriptions are, the accuracy of content, and how the different stories, tasks, etc move through the kanban board) will all affect your mark. Be vigilant in keeping your board accurate.
+
+--- 
+[Previous: Scenario](./scenario.md) | 
+[Next: Setup Instructions](./setup-instructions.md)
