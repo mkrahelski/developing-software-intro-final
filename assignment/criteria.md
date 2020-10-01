@@ -12,7 +12,6 @@ Review the [Marking Criteria Guidlines](./marking-criteria.md) to understand how
   - [ ] Did your tests pass?
   - [ ] Were your tests useful?
   - [ ] Did you version your changes correctly?
-  - [ ] Did you create useful and complete unit tests?
   - [ ] Do you correctly calculate the required materials?
   - [ ] Does your application compile, lint, and pass tests?
   - [ ] Do your functions throw appropriate errors when unexpected values are present
