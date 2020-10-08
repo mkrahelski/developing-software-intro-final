@@ -1,3 +1,5 @@
 dist
 node_modules
 assigment
+.nyc_output
+coverage

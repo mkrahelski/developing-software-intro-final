@@ -2,3 +2,5 @@ assignment
 node_modules
 dist
 tests
+.nyc_output
+coverage

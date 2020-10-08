@@ -81,7 +81,19 @@ To use the testing functionality as part of compiling and run time. Use the comm
 ~~~~~~~
 npm run build:devkit
 ~~~~~~
+--------------------------
 
+## __FEATURE Instabul Coverage__ 
+
+### READ to USE
+
+To use testing functionality of mocha and chai read/follow the method shown below.
+
+To test with coverage, use the script below, and enter it into your terminal.
+~~~~~
+npm run nyc
+~~~~~
+-------------------------
 
 
 
