@@ -33,6 +33,21 @@ And last but not least if you want to do both compile and have fun. Use this scr
 npm run build
 ~~~~~~
 -----------------------
+---------------------
+## __FEATURE ESLINT__
+
+### READ to USE
+
+To use lint read/follow the method shown below.
+
+To lint, use the script below, and enter it into your terminal.
+~~~~~
+npm run lint
+~~~~~
+To use lint during compiling and run time. Use the command below. The example is the instruction.
+~~~~~~~
+npm run build:devkit
+~~~~~~
 
 
 
