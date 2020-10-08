@@ -48,8 +48,8 @@ To use lint during compiling and run time. Use the command below. The example is
 ~~~~~~~
 npm run build:devkit
 ~~~~~~
----------------------
-## __FEATURE Prettier__
+--------------------- TODO: ADD a descrp. Short of what each does.
+## __FEATURE Prettier__ 
 
 ### READ to USE
 
@@ -63,6 +63,25 @@ To use lint prettier as part of compiling and run time. Use the command below. T
 ~~~~~~~
 npm run build:devkit
 ~~~~~~
+
+--------------------- TODO: ADD a descrp. Short of what each does.
+
+
+## __FEATURE Testing__ 
+
+### READ to USE
+
+To use testing functionality of mocha and chai read/follow the method shown below.
+
+To test, use the script below, and enter it into your terminal.
+~~~~~
+npm run format
+~~~~~
+To use the testing functionality as part of compiling and run time. Use the command below. The example is the instruction.
+~~~~~~~
+npm run build:devkit
+~~~~~~
+
 
 
 
