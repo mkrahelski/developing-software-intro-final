@@ -10,6 +10,39 @@ You can remove everything below the above line once you're ready to edit this fi
 
 Please read the [Final Test Requirements](./assignment/readme.md)
 
+---------------------
+## __FEATURE TSC__
+
+### READ to USE
+
+This repository uses typescript.
+
+To also know how to use typescript. Read the examples below.
+
+To compile project. (which compiles index.ts in src folder dir)
+Use the script below, and enter it into your terminal.
+~~~~~
+npm run compile
+~~~~~
+To run the compiled project.Use this different script!
+~~~~~
+npm run fun
+~~~~~~
+And last but not least if you want to do both compile and have fun. Use this script.
+~~~~~~
+npm run build
+~~~~~~
+-----------------------
+
+
+
+
+
+
+
+
+
+-----------------
 ## IMPORTANT NOTICE
 
 DO NOT PUSH THIS REPOSITORY TO YOUR GITHUB ACCOUNT OR MAKE A PULL REQUEST INTO THE FINAL UNTIL DIRECTLY INSTRUCTED TO DO SO. THIS IS A TEST AND CANNOT BE COLLABORATED ON WITH OTHER STUDENTS.
