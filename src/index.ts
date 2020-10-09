@@ -1,8 +1,7 @@
 const yargs = require('yargs');
 const argv = yargs
-import { Argv } from 'yargs';
-
-    
+import { Arguments, Argv } from 'yargs';
+import { calcHouseMaterials } from './calculator/index'
 
 
 
@@ -71,7 +70,7 @@ yargs.parse();
             },
     
             function (
-                args: Argv<{
+                args: Arguments<{
                     width: number;
                     length: number;
                     isfeet: string;
@@ -86,6 +85,9 @@ yargs.parse();
           
             {          
                 console.log(argv);
+
+                calcHouseMaterials(name, width, length, isfeet )
+
             }
       
       
