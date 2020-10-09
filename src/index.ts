@@ -1,13 +1,66 @@
 const yargs = require('yargs');
-import { argv } from "process";
-import { Arguments, Argv, number } from "yargs";
+const argv = yargs
+ 
+console.log(process.argv+'1');
 
+console.log(yargs.argv+'2');
 
 import { dryWall } from './modules/drywall';
 import { masterCalc } from './modules/master';
 
 
-console.log(process.argv);
+
+const length:number = argv.lol;
+const width:number = argv.kek;
+const nom:string = argv.krek;
+
+//node dist/index.js --lol=5 --ke=10 --krek=20
+
+console.log(length, width, nom)
+
+
+const l = 22;
+const w = 24;
+const nome = "Old Yeller";
+
+function testOne(_length:number, _width:number, _name:string) {}
+
+
+
+yargs.command({
+    command : 'nightmare',
+    describe: "crashing this plane.",
+    handler : function() {
+        console.log("\nAdding a New Note!\n");
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//I mean I can write the functions for the calculator could use.
+//Export, Import
+//A shorter technical documentation.
+//some tests as well. :I
+
+
+
+//now it's cool you can pass it in. 
+    //it's less cool that you can't do anything with it.
+
+
+
 
 //const length = argv.length;
 //console.log(length)
@@ -17,31 +70,11 @@ console.log(process.argv);
 
 
 
-yargs
-  .command('get', 'make a get HTTP request', function (yargs) {
-    return yargs.option('url', {
-      alias: 'u',
-      default: 'http://yargs.js.org/'
-    })
-  })
-  .help()
-  .argv
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-function testOne(length:number, width:number, name:string) {}
 
 
 
