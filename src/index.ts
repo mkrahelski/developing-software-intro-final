@@ -1,13 +1,142 @@
 const yargs = require('yargs');
 const argv = yargs
- 
-console.log(process.argv+'1');
+import { Argv } from 'yargs';
 
-console.log(yargs.argv+'2');
+    
 
-import { dryWall } from './modules/drywall';
-import { masterCalc } from './modules/master';
 
+
+        yargs.command(
+    
+            "get-house-materials", 
+            //nom
+    
+            "Creates house",
+            
+            {
+                fullName: {
+                    type: "string",
+                    alias: "n",
+                    description: "Declaration of fullname.",
+                },
+            },
+    
+            function (
+                args: Argv<{
+                   n: string;
+                   fullName: string;
+                }>
+            ) 
+            
+            {           
+                console.log(argv);
+            }
+      
+        );
+yargs.help();
+yargs.parse(); 
+        
+    
+        yargs.command(
+            
+            "calc-house-materials",
+    
+            "Calculate stuff about the house",
+    
+            // define the parameters we need for our command
+            {
+                width: {
+                    type: "number",
+                    alias: "w",
+                    description: "The width of the house",
+                },
+    
+                length: {
+                    type: "number",
+                    alias: "l",
+                    description: "The length of the house",
+                },
+    
+                isfeet: {
+                    type: "string",
+                    alias: "yes",
+                    description: "is feet?",
+                },
+    
+                name:{
+                    type: "string",
+                    alias: "n",
+                    description: "the name of the house",
+                },
+            },
+    
+            function (
+                args: Argv<{
+                    width: number;
+                    length: number;
+                    isfeet: string;
+                    name: string;
+                    w: number;
+                    l: number;
+                    yes: string;
+                    n:string;
+    
+                }>
+            ) 
+          
+            {          
+                console.log(argv);
+            }
+      
+      
+            );
+    
+yargs.help();
+yargs.parse(); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 
 const length:number = argv.lol;
@@ -28,7 +157,7 @@ function testOne(_length:number, _width:number, _name:string) {}
 
 
 yargs.command({
-    command : 'nightmare',
+    command : '',
     describe: "crashing this plane.",
     handler : function() {
         console.log("\nAdding a New Note!\n");

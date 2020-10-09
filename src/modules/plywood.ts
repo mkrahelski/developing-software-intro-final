@@ -1,0 +1,1 @@
+//plywood squares on the outside of the house.

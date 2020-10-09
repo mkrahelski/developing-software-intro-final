@@ -24,9 +24,16 @@
 
 import { dryWall } from './drywall';
 
-export function masterCalc(l:number, w:number, name:string, o:object, 
+export function masterCalc(l:number, w:number, name:string, oHouse:object, 
     a = (l:number, w:number)=>{}, 
-    b = (o:object) =>{})
+    createHouse = (o:object) =>{})
+
+
+
+
+
+
+
 
     {
 
@@ -34,7 +41,7 @@ export function masterCalc(l:number, w:number, name:string, o:object,
     console.log("Logic worked. How to generate yargs backbone?")
     
 
-    b(o);
+    createHouse(oHouse);
 
     }
 

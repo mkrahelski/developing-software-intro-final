@@ -43,12 +43,12 @@ To use lint read/follow the method shown below.
 To lint, use the script below, and enter it into your terminal.
 ~~~~~
 npm run lint
-~~~~~
+~~~~~~
 To use lint during compiling and run time. Use the command below. The example is the instruction.
 ~~~~~~~
 npm run build:devkit
-~~~~~~
---------------------- TODO: ADD a descrp. Short of what each does.
+~~~~~~~
+---------------------
 ## __FEATURE Prettier__ 
 
 ### READ to USE
@@ -62,11 +62,9 @@ npm run format
 To use lint prettier as part of compiling and run time. Use the command below. The example is the instruction.
 ~~~~~~~
 npm run build:devkit
-~~~~~~
+~~~~~~~
 
---------------------- TODO: ADD a descrp. Short of what each does.
-
-
+--------------------- 
 ## __FEATURE Testing__ 
 
 ### READ to USE
@@ -80,7 +78,7 @@ npm run format
 To use the testing functionality as part of compiling and run time. Use the command below. The example is the instruction.
 ~~~~~~~
 npm run build:devkit
-~~~~~~
+~~~~~~~
 --------------------------
 
 ## __FEATURE Instabul Coverage__ 
@@ -90,29 +88,62 @@ npm run build:devkit
 To use testing functionality of mocha and chai read/follow the method shown below.
 
 To test with coverage, use the script below, and enter it into your terminal.
-~~~~~
+~~~~~~~~~
 npm run nyc
-~~~~~
+~~~~~~~~~
 -------------------------
 
 
+## __Yargs__ 
+
+### READ to USE
+
+The commands written in yargs can be acessed using these two key words in the format listed below
+
+~~~~~~
+--get-house-materials 
+
+--calc-house-materials
+~~~~~~~~
 
 
+Once inputted into the function --help flags can be used to determine paramaters on the fly.
+
+-----
+
+###  __--get-house-materials__
+
+Description: generates a console.log of passed arguments, using one paramater name for it's outputs.
+
+~~~~~
+--name
+//name paramater can be initialized with this keyword
+//the complete expression would look like this.
+
+--name "Jack."
+--name "John Doe" //this is also fine.~~~~~~
+~~~~~
 
 
+### __--calc-house-materials__
+
+Description: generates a console.log of passed arguments, using four parameters.
 
 
+~~~~~
+--length
+--width
+--isfeet
+--name
 
 
------------------
-## IMPORTANT NOTICE
+//the complete expression would look like this.
 
-DO NOT PUSH THIS REPOSITORY TO YOUR GITHUB ACCOUNT OR MAKE A PULL REQUEST INTO THE FINAL UNTIL DIRECTLY INSTRUCTED TO DO SO. THIS IS A TEST AND CANNOT BE COLLABORATED ON WITH OTHER STUDENTS.
+--calc-house-materials --length 8 --width 8 --isfeet yes --name "Nolan Brown"
+~~~~~
 
-## Deadline For Submissions
+## Pre-use.
+    -compile using npm run compile
+    -preface each expression with 'node dist/index.js' without the quotes
 
-The deadline for this assignment is 5PM on Friday October 9th, 2020. No extensions can be given for this final.
-
-## Notes
-
-This is a PUBLIC repository attached to your github account and something that you can demonstrate to potential employers. Take care to ensure professionalism for both you and your team's sake. This will be the first entry into your professional portfolio.
+----------------------
