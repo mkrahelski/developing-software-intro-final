@@ -7,3 +7,10 @@ export function calcHouseMaterials(
 
             console.log(arguments);
         }
+
+
+export function getHouseMaterials(name:string){
+
+    console.log(arguments);
+
+}

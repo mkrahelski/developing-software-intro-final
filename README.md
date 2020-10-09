@@ -146,4 +146,28 @@ Description: generates a console.log of passed arguments, using four parameters.
     -compile using npm run compile
     -preface each expression with 'node dist/index.js' without the quotes
 
-----------------------
+
+------------------
+
+### __Function calcHouseMaterials__
+
+This function takes in 4 parameters. It gives back a console.log of arguments.
+~~~~
+    -name
+    -width
+    -length
+    -is feet
+~~~~
+
+Possible errors. Currently none functional with yargs.
+
+### __Function getHouseMaterials__
+
+This function takes in 1 paramater name. It gives back a console.log of arguments
+
+Ex.
+~~~~~~~
+--name "John
+~~~~~~~~
+
+Possible errors, none functional in current yargs but can be called otherwise in main index.

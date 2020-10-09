@@ -2,6 +2,7 @@ const yargs = require('yargs');
 const argv = yargs
 import { Arguments, Argv } from 'yargs';
 import { calcHouseMaterials } from './calculator/index'
+import { getHouseMaterials } from './calculator/index'
 
 
 
@@ -28,6 +29,7 @@ import { calcHouseMaterials } from './calculator/index'
             ) 
             
             {           
+                getHouseMaterials(fullname);
                 console.log(argv);
             }
       
