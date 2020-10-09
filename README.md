@@ -2,13 +2,11 @@
 
 This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.
 
----
 
-You can remove everything below the above line once you're ready to edit this file.
 
-## Getting Started
 
-Please read the [Final Test Requirements](./assignment/readme.md)
+
+
 
 ---------------------
 ## __FEATURE TSC__
@@ -171,3 +169,9 @@ Ex.
 ~~~~~~~~
 
 Possible errors, none functional in current yargs but can be called otherwise in main index.
+
+-----------
+
+## Final Note
+
+It was an enjoyable finale, but a very challanging one. I had my issues, and there was a lot I had to learn and catch up on. Unfortunately I was not able to finish it due to the difficulties I had parsing the material..
